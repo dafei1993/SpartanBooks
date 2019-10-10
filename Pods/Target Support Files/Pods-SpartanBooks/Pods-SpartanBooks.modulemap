@@ -1,0 +1,6 @@
+framework module Pods_SpartanBooks {
+  umbrella header "Pods-SpartanBooks-umbrella.h"
+
+  export *
+  module * { export * }
+}

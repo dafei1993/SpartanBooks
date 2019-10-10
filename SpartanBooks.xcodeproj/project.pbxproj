@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55509D355BC8CFF8F5F8522 /* Pods_SpartanBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBB546141C0D2E742021246 /* Pods_SpartanBooks.framework */; };
+		BA32497E20827E7800D9F306 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32497D20827E7800D9F306 /* RegisterViewController.swift */; };
+		BA32498020827E8A00D9F306 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32497F20827E8A00D9F306 /* LoginViewController.swift */; };
+		BA3D138A20820AA2008BCB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D138920820AA2008BCB7C /* AppDelegate.swift */; };
+		BA3D138C20820AA2008BCB7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D138B20820AA2008BCB7C /* ViewController.swift */; };
+		BA3D139120820AA2008BCB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3D139020820AA2008BCB7C /* Assets.xcassets */; };
+		BA3D139420820AA2008BCB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3D139220820AA2008BCB7C /* LaunchScreen.storyboard */; };
+		BA42CE5B209928B7009D5F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA42CE5A209928B7009D5F73 /* Main.storyboard */; };
+		BA42CE5D20992903009D5F73 /* ManageListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42CE5C20992903009D5F73 /* ManageListingsViewController.swift */; };
+		BA42CE5F209932CD009D5F73 /* ManageListingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42CE5E209932CD009D5F73 /* ManageListingsTableViewCell.swift */; };
+		BA5B330B20844F790036691B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B330A20844F790036691B /* RoundButton.swift */; };
+		BA5B331120847C450036691B /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B331020847C440036691B /* AccountSettingsViewController.swift */; };
+		BA5B3315208552F80036691B /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B3314208552F80036691B /* ManageViewController.swift */; };
+		BA5B33272085BA1B0036691B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B33262085BA1B0036691B /* HomeViewController.swift */; };
+		BA5B332B2086A7960036691B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA5B332A2086A7960036691B /* GoogleService-Info.plist */; };
+		BA67E2602086D043006F4DD0 /* NewListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA67E25F2086D043006F4DD0 /* NewListingViewController.swift */; };
+		BA67E2622086DD10006F4DD0 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA67E2612086DD10006F4DD0 /* ViewControllerTableViewCell.swift */; };
+		BA67E2662086DDD5006F4DD0 /* TextbookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA67E2652086DDD5006F4DD0 /* TextbookModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32EF2F371A887AE55FF588B9 /* Pods-SpartanBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanBooks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanBooks/Pods-SpartanBooks.debug.xcconfig"; sourceTree = "<group>"; };
+		6408B6841AC34149664611EF /* Pods-SpartanBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanBooks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanBooks/Pods-SpartanBooks.release.xcconfig"; sourceTree = "<group>"; };
+		AFBB546141C0D2E742021246 /* Pods_SpartanBooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanBooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32497D20827E7800D9F306 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BA32497F20827E8A00D9F306 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA3D138620820AA2008BCB7C /* SpartanBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3D138920820AA2008BCB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3D138B20820AA2008BCB7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA3D139020820AA2008BCB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3D139320820AA2008BCB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3D139520820AA2008BCB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA42CE5A209928B7009D5F73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA42CE5C20992903009D5F73 /* ManageListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageListingsViewController.swift; sourceTree = "<group>"; };
+		BA42CE5E209932CD009D5F73 /* ManageListingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageListingsTableViewCell.swift; sourceTree = "<group>"; };
+		BA5B330A20844F790036691B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		BA5B331020847C440036691B /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		BA5B3314208552F80036691B /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		BA5B33262085BA1B0036691B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA5B332A2086A7960036691B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BA67E25F2086D043006F4DD0 /* NewListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListingViewController.swift; sourceTree = "<group>"; };
+		BA67E2612086DD10006F4DD0 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		BA67E2652086DDD5006F4DD0 /* TextbookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextbookModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3D138320820AA2008BCB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55509D355BC8CFF8F5F8522 /* Pods_SpartanBooks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EEB17F362B289B1B244141D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFBB546141C0D2E742021246 /* Pods_SpartanBooks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C77D88DBCF4B055CA49D11A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32EF2F371A887AE55FF588B9 /* Pods-SpartanBooks.debug.xcconfig */,
+				6408B6841AC34149664611EF /* Pods-SpartanBooks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA3D137D20820AA2008BCB7C = {
+			isa = PBXGroup;
+			children = (
+				BA3D138820820AA2008BCB7C /* SpartanBooks */,
+				BA3D138720820AA2008BCB7C /* Products */,
+				3C77D88DBCF4B055CA49D11A /* Pods */,
+				2EEB17F362B289B1B244141D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3D138720820AA2008BCB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3D138620820AA2008BCB7C /* SpartanBooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3D138820820AA2008BCB7C /* SpartanBooks */ = {
+			isa = PBXGroup;
+			children = (
+				BA5B332A2086A7960036691B /* GoogleService-Info.plist */,
+				BA5B330A20844F790036691B /* RoundButton.swift */,
+				BA3D138920820AA2008BCB7C /* AppDelegate.swift */,
+				BA3D138B20820AA2008BCB7C /* ViewController.swift */,
+				BA42CE5A209928B7009D5F73 /* Main.storyboard */,
+				BA3D139020820AA2008BCB7C /* Assets.xcassets */,
+				BA3D139220820AA2008BCB7C /* LaunchScreen.storyboard */,
+				BA3D139520820AA2008BCB7C /* Info.plist */,
+				BA32497D20827E7800D9F306 /* RegisterViewController.swift */,
+				BA32497F20827E8A00D9F306 /* LoginViewController.swift */,
+				BA5B331020847C440036691B /* AccountSettingsViewController.swift */,
+				BA5B3314208552F80036691B /* ManageViewController.swift */,
+				BA5B33262085BA1B0036691B /* HomeViewController.swift */,
+				BA67E25F2086D043006F4DD0 /* NewListingViewController.swift */,
+				BA67E2612086DD10006F4DD0 /* ViewControllerTableViewCell.swift */,
+				BA67E2652086DDD5006F4DD0 /* TextbookModel.swift */,
+				BA42CE5C20992903009D5F73 /* ManageListingsViewController.swift */,
+				BA42CE5E209932CD009D5F73 /* ManageListingsTableViewCell.swift */,
+			);
+			path = SpartanBooks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3D138520820AA2008BCB7C /* SpartanBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3D139820820AA2008BCB7C /* Build configuration list for PBXNativeTarget "SpartanBooks" */;
+			buildPhases = (
+				CC70D8094DD28D8DF0E9D58C /* [CP] Check Pods Manifest.lock */,
+				BA3D138220820AA2008BCB7C /* Sources */,
+				BA3D138320820AA2008BCB7C /* Frameworks */,
+				BA3D138420820AA2008BCB7C /* Resources */,
+				FFC9C2FCAA94201D5F5D414D /* [CP] Embed Pods Frameworks */,
+				00A13EF1BC42E0CA791C5F47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartanBooks;
+			productName = SpartanBooks;
+			productReference = BA3D138620820AA2008BCB7C /* SpartanBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3D137E20820AA2008BCB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Cindy Ho";
+				TargetAttributes = {
+					BA3D138520820AA2008BCB7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA3D138120820AA2008BCB7C /* Build configuration list for PBXProject "SpartanBooks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3D137D20820AA2008BCB7C;
+			productRefGroup = BA3D138720820AA2008BCB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3D138520820AA2008BCB7C /* SpartanBooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3D138420820AA2008BCB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3D139420820AA2008BCB7C /* LaunchScreen.storyboard in Resources */,
+				BA42CE5B209928B7009D5F73 /* Main.storyboard in Resources */,
+				BA5B332B2086A7960036691B /* GoogleService-Info.plist in Resources */,
+				BA3D139120820AA2008BCB7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A13EF1BC42E0CA791C5F47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanBooks/Pods-SpartanBooks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC70D8094DD28D8DF0E9D58C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpartanBooks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC9C2FCAA94201D5F5D414D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanBooks/Pods-SpartanBooks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanBooks/Pods-SpartanBooks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3D138220820AA2008BCB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA32498020827E8A00D9F306 /* LoginViewController.swift in Sources */,
+				BA5B330B20844F790036691B /* RoundButton.swift in Sources */,
+				BA67E2622086DD10006F4DD0 /* ViewControllerTableViewCell.swift in Sources */,
+				BA32497E20827E7800D9F306 /* RegisterViewController.swift in Sources */,
+				BA3D138C20820AA2008BCB7C /* ViewController.swift in Sources */,
+				BA42CE5F209932CD009D5F73 /* ManageListingsTableViewCell.swift in Sources */,
+				BA3D138A20820AA2008BCB7C /* AppDelegate.swift in Sources */,
+				BA42CE5D20992903009D5F73 /* ManageListingsViewController.swift in Sources */,
+				BA5B33272085BA1B0036691B /* HomeViewController.swift in Sources */,
+				BA67E2662086DDD5006F4DD0 /* TextbookModel.swift in Sources */,
+				BA67E2602086D043006F4DD0 /* NewListingViewController.swift in Sources */,
+				BA5B3315208552F80036691B /* ManageViewController.swift in Sources */,
+				BA5B331120847C450036691B /* AccountSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA3D139220820AA2008BCB7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3D139320820AA2008BCB7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3D139620820AA2008BCB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3D139720820AA2008BCB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3D139920820AA2008BCB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EF2F371A887AE55FF588B9 /* Pods-SpartanBooks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = SpartanBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.cmpe137.lecture.SpartanBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3D139A20820AA2008BCB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6408B6841AC34149664611EF /* Pods-SpartanBooks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = SpartanBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.cmpe137.lecture.SpartanBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3D138120820AA2008BCB7C /* Build configuration list for PBXProject "SpartanBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3D139620820AA2008BCB7C /* Debug */,
+				BA3D139720820AA2008BCB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3D139820820AA2008BCB7C /* Build configuration list for PBXNativeTarget "SpartanBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3D139920820AA2008BCB7C /* Debug */,
+				BA3D139A20820AA2008BCB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3D137E20820AA2008BCB7C /* Project object */;
+}

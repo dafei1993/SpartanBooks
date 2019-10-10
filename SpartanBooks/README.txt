@@ -1,0 +1,4 @@
+- Select on home -> contact 
+- Search 
+- Edit/Delete 
+- Sort 
